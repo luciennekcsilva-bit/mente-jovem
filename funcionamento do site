@@ -1,0 +1,106 @@
+/* =========================
+   MENU MOBILE
+========================= */
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+if (menuToggle && navLinks) {
+    menuToggle.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+    });
+}
+
+const links = document.querySelectorAll(".nav-links a");
+
+links.forEach(function (link) {
+    link.addEventListener("click", function () {
+        if (navLinks) {
+            navLinks.classList.remove("active");
+        }
+    });
+});
+
+/* =========================
+   QUIZ
+========================= */
+
+const quizForm = document.getElementById("quiz-form");
+const quizResult = document.getElementById("quiz-result");
+
+if (quizForm && quizResult) {
+    quizForm.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        let score = 0;
+        const questions = ["q1", "q2", "q3", "q4", "q5"];
+
+        for (let question of questions) {
+            const answer = document.querySelector(
+                `input[name="${question}"]:checked`
+            );
+
+            if (!answer) {
+                quizResult.innerHTML = `
+                    <h3>⚠️ Falta uma resposta</h3>
+
+                    <p>
+                        Responda todas as perguntas antes de ver o resultado.
+                    </p>
+                `;
+
+                quizResult.classList.add("show");
+                return;
+            }
+
+            score += Number(answer.value);
+        }
+
+        let title = "";
+        let message = "";
+
+        if (score >= 8) {
+            title = "💜 Você parece ter uma rotina bem equilibrada!";
+            message = `
+                Continue valorizando seus momentos de descanso,
+                lazer, convivência e autocuidado.
+                Lembre-se de que ninguém precisa estar bem o tempo todo.
+            `;
+        } else if (score >= 5) {
+            title = "🌱 Talvez seja um bom momento para se observar mais.";
+            message = `
+                Algumas áreas da sua rotina podem merecer mais atenção.
+                Tente reservar momentos para descansar, fazer atividades
+                que gosta e conversar com pessoas de confiança.
+            `;
+        } else {
+            title = "💬 Talvez seja importante conversar com alguém.";
+            message = `
+                Suas respostas podem ser um convite para olhar com mais
+                atenção para sua rotina e seu bem-estar.
+                Se você estiver enfrentando dificuldades, procure uma pessoa
+                adulta de confiança ou um profissional de saúde.
+            `;
+        }
+
+        quizResult.innerHTML = `
+            <h3>${title}</h3>
+
+            <p>${message}</p>
+
+            <br>
+
+            <small>
+                Este quiz é apenas educativo e não representa
+                um diagnóstico de saúde mental.
+            </small>
+        `;
+
+        quizResult.classList.add("show");
+
+        quizResult.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+    });
+}
