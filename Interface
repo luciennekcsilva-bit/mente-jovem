@@ -1,1 +1,523 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title> | Saúde Mental</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                🧠 <span>Mente Jovem</span>
+            </div>
+
+            <button class="menu-toggle" id="menu-toggle">☰</button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#saude">Saúde Mental</a></li>
+                <li><a href="#desafios">Desafios</a></li>
+                <li><a href="#redes">Redes Sociais</a></li>
+                <li><a href="#cuidados">Cuidados</a></li>
+                <li><a href="#quiz">Quiz</a></li>
+                <li><a href="#ajuda">Procure Ajuda</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- INÍCIO -->
+    <main>
+
+        <section id="inicio" class="hero">
+
+            <div class="hero-content">
+
+                <span class="tag">PROJETO ESCOLAR</span>
+
+                <h1>
+                    Cuidar da mente também é
+                    <span>cuidar da saúde.</span>
+                </h1>
+
+                <p>
+                    Um espaço criado para informar e conscientizar
+                    adolescentes sobre saúde mental, emoções,
+                    autocuidado e a importância de pedir ajuda.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#saude" class="button">
+                        Conheça o projeto
+                    </a>
+
+                    <a href="#quiz" class="button secondary">
+                        Fazer o quiz
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <div class="brain">🧠</div>
+
+                <h3>Sua mente importa!</h3>
+
+                <p>
+                    Conhecer suas emoções também é uma forma
+                    de cuidar de si.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE SAÚDE MENTAL -->
+        <section id="saude" class="section">
+
+            <div class="section-title">
+                <span>01</span>
+                <h2>O que é saúde mental?</h2>
+            </div>
+
+            <div class="content-box">
+
+                <p>
+                    Saúde mental está relacionada à forma como uma pessoa
+                    lida com seus pensamentos, sentimentos, emoções,
+                    relacionamentos e situações do dia a dia.
+                </p>
+
+                <p>
+                    Ter saúde mental não significa estar feliz o tempo todo.
+                    Todas as pessoas podem sentir tristeza, preocupação,
+                    medo, raiva ou estresse.
+                </p>
+
+                <p>
+                    O importante é reconhecer o que estamos sentindo,
+                    buscar maneiras saudáveis de lidar com as situações
+                    e procurar ajuda quando for necessário.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- DESAFIOS -->
+        <section id="desafios" class="section light">
+
+            <div class="section-title">
+                <span>02</span>
+                <h2>Desafios da adolescência</h2>
+            </div>
+
+            <p class="section-intro">
+                A adolescência pode trazer diversas mudanças e desafios.
+                Conhecer esses desafios ajuda a entender melhor nossas emoções.
+            </p>
+
+            <div class="cards">
+
+                <article class="card">
+                    <div class="card-icon">📚</div>
+                    <h3>Pressão escolar</h3>
+                    <p>
+                        Provas, trabalhos, notas e preocupações com o futuro
+                        podem gerar estresse.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">📱</div>
+                    <h3>Redes sociais</h3>
+                    <p>
+                        A comparação constante pode influenciar a autoestima
+                        e a maneira como nos enxergamos.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">👥</div>
+                    <h3>Amizades</h3>
+                    <p>
+                        Conflitos, exclusão e dificuldades nos relacionamentos
+                        podem afetar o bem-estar.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">❤️</div>
+                    <h3>Autoestima</h3>
+                    <p>
+                        Durante a adolescência, a percepção sobre nós mesmos
+                        pode passar por muitas mudanças.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🏠</div>
+                    <h3>Família</h3>
+                    <p>
+                        Conflitos e dificuldades de comunicação podem gerar
+                        preocupação e estresse.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon">🔮</div>
+                    <h3>Futuro</h3>
+                    <p>
+                        Pensar em profissão, estudos e responsabilidades
+                        pode trazer insegurança.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- REDES SOCIAIS -->
+        <section id="redes" class="section">
+
+            <div class="section-title">
+                <span>03</span>
+                <h2>Redes sociais e saúde mental</h2>
+            </div>
+
+            <div class="social-content">
+
+                <div>
+                    <h3>
+                        Você controla as redes ou as redes controlam você?
+                    </h3>
+
+                    <p>
+                        As redes sociais podem ser importantes para comunicação,
+                        entretenimento e acesso à informação.
+                    </p>
+
+                    <p>
+                        Porém, o uso excessivo e a comparação constante com
+                        outras pessoas podem afetar o bem-estar.
+                    </p>
+
+                    <p>
+                        É importante lembrar que aquilo que aparece nas redes
+                        representa apenas uma parte da vida de uma pessoa.
+                    </p>
+                </div>
+
+                <div class="tips-box">
+
+                    <h3>💡 Dicas</h3>
+
+                    <ul>
+                        <li>📵 Faça pausas durante o dia.</li>
+                        <li>🔕 Desative notificações desnecessárias.</li>
+                        <li>👥 Evite comparações.</li>
+                        <li>⏰ Organize seu tempo de tela.</li>
+                        <li>❤️ Siga conteúdos que façam bem.</li>
+                        <li>🔎 Verifique informações antes de compartilhar.</li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CUIDADOS -->
+        <section id="cuidados" class="section light">
+
+            <div class="section-title">
+                <span>04</span>
+                <h2>Como cuidar da saúde mental?</h2>
+            </div>
+
+            <p class="section-intro">
+                Pequenos hábitos podem contribuir para uma rotina mais
+                equilibrada.
+            </p>
+
+            <div class="care-grid">
+
+                <div class="care-item">
+                    <span>💤</span>
+                    <h3>Durma bem</h3>
+                    <p>
+                        Uma boa rotina de sono ajuda no descanso e na disposição.
+                    </p>
+                </div>
+
+                <div class="care-item">
+                    <span>🏃</span>
+                    <h3>Mova-se</h3>
+                    <p>
+                        Atividades físicas podem contribuir para o bem-estar.
+                    </p>
+                </div>
+
+                <div class="care-item">
+                    <span>🥗</span>
+                    <h3>Alimente-se bem</h3>
+                    <p>
+                        Uma alimentação equilibrada contribui para a saúde.
+                    </p>
+                </div>
+
+                <div class="care-item">
+                    <span>🎨</span>
+                    <h3>Tenha momentos de lazer</h3>
+                    <p>
+                        Fazer coisas que você gosta também é importante.
+                    </p>
+                </div>
+
+                <div class="care-item">
+                    <span>💬</span>
+                    <h3>Converse</h3>
+                    <p>
+                        Compartilhar sentimentos com alguém de confiança pode ajudar.
+                    </p>
+                </div>
+
+                <div class="care-item">
+                    <span>❤️</span>
+                    <h3>Cuide de você</h3>
+                    <p>
+                        Respeite seus limites e reconheça suas necessidades.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUIZ -->
+        <section id="quiz" class="section quiz-section">
+
+            <div class="section-title">
+                <span>05</span>
+                <h2>Quiz: como está sua rotina?</h2>
+            </div>
+
+            <p class="section-intro">
+                Responda às perguntas abaixo para refletir sobre seus hábitos.
+            </p>
+
+            <div class="quiz-box">
+
+                <form id="quiz-form">
+
+                    <div class="question">
+                        <h3>1. Você costuma conseguir dormir bem?</h3>
+
+                        <label>
+                            <input type="radio" name="q1" value="2">
+                            Sim, na maioria dos dias.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q1" value="1">
+                            Às vezes.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q1" value="0">
+                            Tenho bastante dificuldade.
+                        </label>
+                    </div>
+
+
+                    <div class="question">
+                        <h3>
+                            2. Quando está preocupado, você conversa com alguém?
+                        </h3>
+
+                        <label>
+                            <input type="radio" name="q2" value="2">
+                            Sim.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q2" value="1">
+                            Às vezes.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q2" value="0">
+                            Normalmente guardo para mim.
+                        </label>
+                    </div>
+
+
+                    <div class="question">
+                        <h3>
+                            3. Você consegue separar um tempo para fazer
+                            coisas que gosta?
+                        </h3>
+
+                        <label>
+                            <input type="radio" name="q3" value="2">
+                            Sim.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q3" value="1">
+                            Às vezes.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q3" value="0">
+                            Quase nunca.
+                        </label>
+                    </div>
+
+
+                    <div class="question">
+                        <h3>
+                            4. As redes sociais influenciam a forma como você se sente?
+                        </h3>
+
+                        <label>
+                            <input type="radio" name="q4" value="2">
+                            Pouco.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q4" value="1">
+                            Às vezes.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q4" value="0">
+                            Frequentemente.
+                        </label>
+                    </div>
+
+
+                    <div class="question">
+                        <h3>
+                            5. Você sabe a quem pedir ajuda quando está
+                            passando por uma situação difícil?
+                        </h3>
+
+                        <label>
+                            <input type="radio" name="q5" value="2">
+                            Sim.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q5" value="1">
+                            Mais ou menos.
+                        </label>
+
+                        <label>
+                            <input type="radio" name="q5" value="0">
+                            Não sei.
+                        </label>
+                    </div>
+
+
+                    <button type="submit" class="quiz-button">
+                        Ver resultado
+                    </button>
+
+                </form>
+
+
+                <div id="quiz-result" class="quiz-result"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- AJUDA -->
+        <section id="ajuda" class="section help-section">
+
+            <div class="help-content">
+
+                <div>
+                    <div class="section-title">
+                        <span>06</span>
+                        <h2>Quando procurar ajuda?</h2>
+                    </div>
+
+                    <p>
+                        Pedir ajuda é uma atitude de cuidado e não significa
+                        fraqueza.
+                    </p>
+
+                    <p>
+                        Se você estiver enfrentando dificuldades emocionais,
+                        converse com um adulto de confiança, professor,
+                        orientador ou profissional de saúde.
+                    </p>
+
+                    <p>
+                        Você não precisa enfrentar tudo sozinho.
+                    </p>
+                </div>
+
+
+                <div class="help-card">
+
+                    <h3>💜 Quem pode me ouvir?</h3>
+
+                    <ul>
+                        <li>👨‍👩‍👧 Família</li>
+                        <li>👩‍🏫 Professor ou orientador</li>
+                        <li>🩺 Profissional de saúde</li>
+                        <li>🤝 Pessoa adulta de confiança</li>
+                    </ul>
+
+                    <strong>
+                        O site informa, mas não substitui acompanhamento profissional.
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <div class="footer-logo">
+            🧠 Mente Jovem
+        </div>
+
+        <p>
+            Projeto escolar sobre saúde mental dos adolescentes.
+        </p>
+
+        <p class="copyright">
+            © 2026 Mente Jovem
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
